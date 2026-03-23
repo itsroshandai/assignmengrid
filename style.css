@@ -1,3 +1,7 @@
+/* *{
+    padding-left: 5px;
+    padding-right: 5px;
+} */
 header{
     display: flex;
     justify-content: center;
@@ -10,7 +14,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-ul{
+.navi{
     display: flex;
     list-style: none;
 }
@@ -24,17 +28,20 @@ a{
     font-weight: bold;
 }
 button{
+    padding: 5px;
     color: white;
     background-color: black;
     border-radius: 5px ;
 }
 .first{
     position: relative;
-    border-radius: 15px;
+    border-radius: 20px;
     background-image: url(https://static.vecteezy.com/system/resources/previews/038/818/336/non_2x/ai-generated-a-modern-library-featuring-sleek-shelves-and-minimalist-design-free-photo.jpeg);
-    width: 100vw;
     height: 600px;
 }
+/* main{
+    margin: 10px;
+} */
 .content{
     color: white;
     position:absolute;
@@ -48,11 +55,65 @@ section{
     row-gap: 3vw;
 }
 .card{
-    border:2px solid black;
-    height: 500px;
+    /* border:2px solid black; */
+    height: 700px;
     width: 30vw;
 }
 .cardimge{
+    height: 65%;
     width: 30vw;
-    background-size: cover;
+    border-radius: 20px;
+}
+.low{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.buton{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 100px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+.foot ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.last{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoo{
+    /* margin-left: 10px; */
+   display: flex;
+    justify-content: center;
+    align-items: center;
 }
